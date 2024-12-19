@@ -1,69 +1,70 @@
-# crypto-tracker
-Crypto Tracker is a web application that allows users to track cryptocurrency prices in real-time. It features login and signup functionality and integrates with a database for storing user credentials.
-Features
-1.User authentication (login and signup).
-2.Real-time cryptocurrency price tracking.
-3.Database integration for storing user information.
-4.User-friendly interface.
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Technologies Used
-Frontend: React, CSS
-Backend: Node.js, Express
-Database: MongoDB
-Authentication: JWT (JSON Web Tokens)
-Crypto API: [Insert the API you used for tracking prices]
+## Available Scripts
 
+In the project directory, you can run:
 
-Installation
-Prerequisites
-Make sure you have the following installed on your system:
+### `npm start`
 
-Node.js
-npm
-MongoDB (if using locally)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Steps to Run Locally
+### `npm test`
 
-Clone the repository:
-bash
-git clone https://github.com/your-username/crypto-tracker.git
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Navigate to the project directory:
-bash
-cd crypto-tracker
+### `npm run build`
 
-Install dependencies:
-bash
-npm install
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Create a .env file in the root directory and add your environment variables, for example:
-bash
-MONGODB_URI=your-mongodb-uri
-JWT_SECRET=your-jwt-secret
-CRYPTO_API_KEY=your-api-key
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Run the application:
-bash
-npm start
-Visit http://localhost:3000 in your browser to view the application.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-Usage
-Users can create an account by signing up, or log in with existing credentials.
-After logging in, users will be able to track live cryptocurrency prices.
-Data will be fetched from the crypto API and displayed in real-time.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Contributing
-If you'd like to contribute to this project:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Fork the repository.
-Create a new branch.
-Make your changes.
-Open a pull request.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
